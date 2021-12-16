@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.test {
+  @apply text-red-500 text-lg;
+}
+.f-head {
+  font-family: 'Inter', sans-serif;
+}
+.c-yellow {
+  color: #FFAD05;
+}
+.c-blue {
+  color: #5995ED;
+}
+.c-black {
+  color: #001427;
+}
+.b-c-black {
+  background-color: #001427;
+}
+.c-green {
+  color: #21D19F;
+}
